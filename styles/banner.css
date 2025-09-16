@@ -1,0 +1,107 @@
+.banner {
+
+    text-align: center;
+    background: var(--azul-degrade);
+    color: var(--branco);
+    padding: 2rem 2.5rem; 
+}
+
+.banner-titulo {
+
+    font-size: 1.125rem;
+    font-weight: bolder;
+}
+
+.banner-descricao {
+
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 0.5rem 0 1.5rem 0;
+}
+
+.banner-busca {
+
+    background-color: transparent;
+    color: var(--branco);
+    border: 1px solid var(--branco);
+    border-radius: 24px;
+    font-size: 0.875rem;
+    width: 100%;
+    padding: 1rem;
+}
+
+.banner-busca::placeholder {
+
+    color: var(--branco);
+    font-family: "Poppins";
+    font-size: 0.875rem;
+    font-weight: 300;
+    text-align: center;
+    background: url("../img/Lupa.svg") no-repeat;
+    background-position: 0.5em;
+    padding-left: 2rem;
+}
+
+
+/*---- CSS para 1024px ----*/
+@media screen and (min-width: 1024px){
+
+    /*---- Banner ----*/
+    .banner {
+
+        padding: 5rem 0;
+    }
+
+    .banner-titulo {
+
+        font-size: 2.25rem;
+
+    }
+
+    .banner-descricao {
+
+        margin: 1rem 0 1.5rem 0;
+    }
+
+    .banner-busca {
+
+        width: 500px;
+    }
+
+    .banner-busca::placeholder {
+
+        background-position: 7rem;
+    }
+
+}
+
+
+/*---- CSS para 1728px ----*/
+@media screen and (min-width:1728px) {
+    
+    .banner {
+
+        padding: 8rem;
+    }
+
+    .banner-titulo {
+
+        font-size: 2.5rem
+    }
+
+    .banner-descricao {
+
+        font-size: 1.2rem;
+        margin: 1.5rem 0 2rem 0;
+    }
+
+    .banner-busca {
+
+        width: 700px;
+    }
+
+    .banner-busca::placeholder {
+
+        background-position: 13rem;
+    }
+}

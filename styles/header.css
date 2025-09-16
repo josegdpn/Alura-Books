@@ -1,0 +1,198 @@
+.cabecalho-linhas {
+
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/Menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+.cabecalho {
+
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.container {
+
+    display: flex;
+    align-items: center;
+}
+
+.container-imagem {
+
+    padding: 1rem;
+}
+
+.lista-menu {
+
+    display:none;
+    position: absolute;
+    top:100%;
+    width: 235px;
+}
+
+.container-botao {
+
+    display: none;
+}
+
+.container-botao:checked ~ .container-rotulo > .cabecalho-linhas{
+
+    background-image: url(../img/Menu\ Aberto.svg);
+}
+
+.container-botao:checked ~ .container-rotulo {
+
+    background: var(--azul-degrade);
+}
+
+.container-botao:checked ~.lista-menu {
+
+    display: block;
+}
+
+.lista-menu-titulo, .lista-menu-itens {
+
+    background-color: var(--branco);
+    padding: 1rem;
+}
+
+.lista-menu-titulo {
+
+    color: var(--laranja);
+    font-weight: 700;
+}
+
+.lista-menu-link {
+
+    background: var(--azul-degrade);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 300;
+    text-transform: uppercase;
+
+}
+
+.container__link-texto {
+
+    display: none;
+}
+
+/*----- Apagar Abaixo de 1024 -----*/
+.container__titulo {
+    display: none;
+}
+
+.header__lista {
+    display: none;
+}
+
+
+
+/*---- CSS para 1024px ----*/
+
+@media screen and (min-width: 1024px){
+
+    /*---- Header ----*/
+
+    .cabecalho {
+        padding: 0 3rem 0 3rem;
+    }
+
+    .container__titulo, .container__titulo--negrito {
+
+        font-family: var(--fonte-secundaria);
+        font-size: 1.875rem;
+    }
+
+    .container__titulo {
+
+        font-weight: 400;
+        display: block;
+    }
+
+    .container__titulo--negrito {
+
+        font-weight: 700;
+    }
+
+
+    /*---- Lista Header ----*/
+    .cabecalho-linhas {
+
+        display: none;
+    }
+    
+    .header__lista {
+
+        display: flex;
+        align-items: center;
+    }
+
+    .header__lista-itens {
+
+        color: var(--preto);
+        font-size: 1rem;
+        margin-left: 1.5rem;
+    }
+
+    .header__lista-link {
+
+        text-decoration: none;
+    }
+
+
+    /*---- CheckBox ----*/
+    .container-favoritos {
+
+        display: none;
+    }
+
+    .container-botao:checked ~ .lista-menu{
+
+        display: block;
+        width: auto;
+    } 
+
+}
+
+
+
+/*---- CSS para 1728px ----*/
+
+@media screen and (min-width: 1728px){
+    
+    .container {
+
+        padding-left: 2rem;
+    }
+
+    .header__lista {
+
+        display: flex;
+        justify-content: left;
+        margin-right: auto;
+    }
+
+    .container__link {
+
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .container__link-texto {
+
+        display: block;
+        color: var(--preto);
+        font-size: 1.25rem;
+    }
+
+}
+
+

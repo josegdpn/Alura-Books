@@ -1,0 +1,99 @@
+
+/* -------------- Tópico Título -------------- */
+
+.topicos {
+
+    background: var(--azul-degrade);
+    text-align: center;
+
+}
+
+.topicos-titulo {
+
+    color: var(--branco);
+    font-weight: 300;
+    padding: 2rem 0 0 0;
+}
+
+.topicos-lista {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1rem;
+
+}
+
+.topicos-item {
+
+    margin: 2em 1em;
+}
+
+.topico__item-baixo {
+
+    margin-bottom: 3.5rem;
+}
+
+.topicos-link {
+
+    background-color: var(--laranja);
+    color: var(--branco);
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: bold;
+    padding: 0.90rem;
+}
+
+.topicos-link:active {
+
+    background-color: var(--laranja-escuro);
+    color: var(--cinza);
+}
+
+
+
+/*---- CSS para 1024px ----*/
+
+@media screen and (min-width: 1024px){
+
+    .topicos-titulo {
+
+        font-size: 1.5rem;
+    }
+
+    .topicos-link {
+
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+}
+
+
+
+/*---- CSS para 1728px ----*/
+@media screen and (min-width: 1720px) {
+    
+    .topicos {
+
+        padding: 5rem 27vw;
+    }
+
+    .topicos-titulo {
+
+        font-size: 2rem;
+
+    }
+
+    .topicos-item {
+
+        margin: 3em 1.5rem 2rem 0;
+    }
+
+    .topicos-link {
+
+        font-size: 1.5rem;
+        padding: 1.5rem;
+
+    }
+}
