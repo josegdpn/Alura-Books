@@ -25,10 +25,6 @@ A proposta foi criar uma página responsiva inspirada na plataforma da AluraBook
 ---
 
 ## 🖥️ Demonstração
-👉 [Acesse o projeto online](https://alura-books-jade-kappa.vercel.app/)  
+👉 [Acesse o projeto](https://alura-books-jade-kappa.vercel.app/)  
 
 ---
-
-## 📌 Status
-✅ Projeto concluído como parte da formação da Alura.  
-🚀 Aberto a melhorias e customizações.
