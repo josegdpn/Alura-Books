@@ -1,30 +1,34 @@
-# 📚 AluraBooks
+# 📚 Projeto AluraBooks
 
-Este projeto é uma página desenvolvida como parte dos meus estudos de **HTML** e **CSS**, inspirada no site da [AluraBooks](https://www.alura.com.br/).  
-O objetivo é praticar a construção de layouts responsivos e aplicar conceitos de **Flexbox**, **media queries** e estilização de componentes como **carrosséis**, **cards** e **botões interativos**.
+✨ Conquistei a certificação: **Formação "A partir do zero: HTML e CSS para projetos web"** pela [Alura](https://www.alura.com.br)!  
+
+Este repositório contém o projeto **AluraBooks**, desenvolvido ao longo da formação.  
+A proposta foi criar uma página responsiva inspirada na plataforma da AluraBooks, aplicando **HTML**, **CSS** e a biblioteca **SwiperJS** para o carrossel.
 
 ---
 
 ## 🚀 Tecnologias utilizadas
-- **HTML5**
-- **CSS3** (Flexbox, Media Queries, variáveis CSS)
-- **SwiperJS** (para o carrossel)
+- **HTML5**  
+- **CSS3** (Flexbox, Media Queries, variáveis CSS)  
+- **SwiperJS** (para o carrossel interativo)  
+- **Vercel** (deploy)
 
 ---
 
 ## 🎯 Aprendizados
-- Estruturação semântica de páginas com HTML  
-- Criação de layouts responsivos e adaptáveis a diferentes telas  
-- Aplicação de estilos reutilizáveis com variáveis CSS  
-- Uso de bibliotecas externas para enriquecer a experiência do usuário  
+- Estruturação semântica de páginas web com HTML  
+- Criação de layouts responsivos para diferentes tamanhos de tela  
+- Utilização de variáveis CSS para padronizar estilos  
+- Integração de bibliotecas externas para funcionalidades avançadas  
+- Publicação de projetos utilizando a Vercel  
 
 ---
 
 ## 🖥️ Demonstração
-*(Se tiver o link do GitHub Pages, insira aqui!)*  
-👉 [Acesse a página no GitHub Pages](https://seuusuario.github.io/seurepositorio)
+👉 [Acesse o projeto online](https://alura-books-jade-kappa.vercel.app/)  
 
 ---
 
 ## 📌 Status
-✅ Projeto em desenvolvimento / aprimoramento constante
+✅ Projeto concluído como parte da formação da Alura.  
+🚀 Aberto a melhorias e customizações.
